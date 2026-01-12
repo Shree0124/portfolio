@@ -1,13 +1,19 @@
 // jest.config.mjs
-import nextJest from "next/jest";
+import { fileURLToPath } from "url";
+import path from "path";
 
-const createJestConfig = nextJest({
-  dir: "./", // Path to your Next.js app
-});
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const customJestConfig = {
+export default {
+  testEnvironment: "jsdom",
+  roots: ["<rootDir>/__tests__"],
+  moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   setupFilesAfterEnv: ["<rootDir>/jest.setup.mjs"],
-  testEnvironment: "jest-environment-jsdom",
+  moduleNameMapper: {
+    "\\.(css|scss|sass)$": "identity-obj-proxy",
+  },
+  transform: {
+    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
+  },
 };
-
-export default createJestConfig(customJestConfig);
