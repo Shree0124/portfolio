@@ -1,6 +1,7 @@
-module.exports = {
+// babel.config.js (ESM syntax)
+export default {
   presets: [
     "@babel/preset-env",
-    ["@babel/preset-react", { runtime: "automatic" }]
+    "@babel/preset-react"
   ]
 };

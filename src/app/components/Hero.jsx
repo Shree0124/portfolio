@@ -248,7 +248,7 @@
 // }
 
 "use client";
-
+import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image"; // if using Next.js Image component
 // import heroImg from "/public/hero-image.png"; // replace with your image path

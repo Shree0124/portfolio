@@ -127,7 +127,7 @@
 
 
 "use client";
-
+import React from "react";
 import { motion } from "framer-motion";
 
 const skills = ["Next.js", "React", "JavaScript", "TypeScript", "Flutter", "Dart", "Tailwind CSS", "Firebase"];
