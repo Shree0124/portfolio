@@ -311,10 +311,10 @@ export default function Hero() {
         className="flex-1 mt-10 md:mt-0 flex justify-center md:justify-end z-10"
       >
       <Image
-          src="/hero_image.png" 
+          src="/image.jpeg" 
           alt="Hero Illustration"
-          width={500}            // recommended: define width
-          height={500}           // recommended: define height
+          width={500}         
+          height={500}          
           className="w-full max-w-md rounded-3xl shadow-2xl"
         />
       </motion.div>
