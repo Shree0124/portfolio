@@ -129,8 +129,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-  { title: "E-Commerce Web App", tech: "Next.js, Tailwind, Stripe", desc: "High-performance online store with modern UI." },
-  { title: "Flutter Finance App", tech: "Flutter, Firebase", desc: "Cross-platform mobile app with elegant UX." },
+  { title: " Web App", tech: "Next.js, Tailwind, Stripe", desc: "High-performance online store with modern UI." },
+  { title: "Flutter  App", tech: "Flutter, Firebase ,Riverpod", desc: "Cross-platform mobile app with elegant UX." },
   { title: "Portfolio Website", tech: "Next.js, Framer Motion", desc: "Personal brand website with interactive animations." }
 ];
 
