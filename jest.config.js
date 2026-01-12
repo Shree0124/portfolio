@@ -9,7 +9,7 @@ export default {
   testEnvironment: "jsdom",
   roots: ["<rootDir>/__tests__"],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.mjs"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   moduleNameMapper: {
     "\\.(css|scss|sass)$": "identity-obj-proxy",
   },
