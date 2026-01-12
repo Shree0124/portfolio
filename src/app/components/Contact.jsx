@@ -188,7 +188,7 @@ import { motion } from "framer-motion";
 
 const socialLinks = [
   {
-    href: "https://github.com/yourusername",
+    href: "https://github.com/Shree0124",
     label: "GitHub",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-7 h-7">
@@ -197,7 +197,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/shreedhar-sanadi-1a302214b/",
     label: "LinkedIn",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-7 h-7">
@@ -205,15 +205,15 @@ const socialLinks = [
       </svg>
     ),
   },
-  {
-    href: "https://twitter.com/yourusername",
-    label: "Twitter",
-    svg: (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-7 h-7">
-        <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.379 4.482A13.978 13.978 0 011.671 3.15a4.822 4.822 0 001.523 6.574 4.902 4.902 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.923 4.923 0 004.604 3.417A9.867 9.867 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646a9.936 9.936 0 002.41-2.506z" />
-      </svg>
-    ),
-  },
+  // {
+  //   href: "https://twitter.com/yourusername",
+  //   label: "Twitter",
+  //   svg: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-7 h-7">
+  //       <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.379 4.482A13.978 13.978 0 011.671 3.15a4.822 4.822 0 001.523 6.574 4.902 4.902 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.923 4.923 0 004.604 3.417A9.867 9.867 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646a9.936 9.936 0 002.41-2.506z" />
+  //     </svg>
+  //   ),
+  // },
 ];
 
 export default function Contact() {
